@@ -1,0 +1,17 @@
+export default {
+    signTitle:"Kuashiria kwa Msalaba",
+    signText:"Kwa jina la Baba, \nna la Mwana, \nna la Roho Mtakatifu. \nAmina.",
+    ourFatherTitle:"Baba Yetu",
+    ourFatherText:"Baba yetu uliye mbinguni, \nJina lako litukuzwe; Ufalme wako ufike; \nMapenzi yako yatimizwe duniani kama mbinguni. \nUtupe leo mkate wetu wa kila siku; \nUtusamehe makosa yetu, kama nasi tunavyowasamehe waliotukosea; \nUsitutie majaribuni, lakini utuokoe na yule mwovu. \nAmina.",
+    hailMaryTitle:"Salamu Maria",
+    hailMaryText:"Salamu Maria, umejaa neema, \nBwana yu nawe. \nUmebarikiwa kuliko wanawake wote, na Yesu, mzao wa tumbo lako, amebarikiwa. \nMaria Mtakatifu, Mama wa Mungu, \nutuombee sisi wakosefu, sasa na saa ya kufa kwetu. \nAmina.",
+    iBelieveTitle:"Nina Imani",
+    iBelieveText:"Nasadiki kwa Mungu, Baba Mwenyezi, mwumba mbingu na dunia. \nNa kwa Yesu Kristu, Mwanaye wa pekee, Bwana wetu; aliyetungwa kwa Roho Mtakatifu, \nakazaliwa na Bikira Maria, \nakateswa kwa mamlaka ya Ponsyo Pilato, \nakasulubiwa, akafa, akazikwa, akashukia kuzimu; \nsiku ya tatu akafufuka katika wafu; \nakapaa mbinguni; amekaa kuume kwa Mungu Baba Mwenyezi;\ntoka huko atakuja kuwahukumu walio hai na wafu. \nNasadiki kwa Roho Mtakatifu, \nKanisa takatifu katoliki, \nushirika wa Watakatifu, \nmaondoleo ya dhambi, \nufufuko wa miili, uzima wa milele. \nAmina.",
+    gloryBeTitle:"Utukufu Kwa Baba",
+    gloryBeText:"Atukuzwe Baba, \nna Mwana, na Roho Mtakatifu. \nKama mwanzo, na sasa, \nna siku zote, na milele. \nAmina",
+    fatimaPrayerTitle:"Sala ya Fatima",
+    fatimaPrayerText:"Ee Yesu wangu, utusamehe dhambi zetu, \nutukinge na moto wamilele, ongoza roho zote mbinguni hasa za wale wanaohitaji zaidi huruma yako Amina.",
+    amen:"Amina",
+    holyQueenTitle:"Salamu Malkia",
+    holyQueenText:"Salamu, Malkia, Mama mwenye huruma; \nuzima, tulizo na matumaini yetu, salamu. \nTunakusihi ugenini hapa, sisi wana wa Eva. Tunakulilia, tukilalamika na kuhuzunika bondeni huku kwenye machozi. \nHaya basi Mwombezi wetu, utuangalie kwa macho yako yenye huruma. Na mwisho wa ugeni huu, utuonyeshe yesu, \nmzao mbarikiwa wa tunbo lako. \nEe mpole, ee mwema, ee mpendavu Bikira Maria",
+}
