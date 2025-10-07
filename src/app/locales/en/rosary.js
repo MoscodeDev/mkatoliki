@@ -1,5 +1,6 @@
 export default {
-  holyRosary: {
+  day: "Day",
+  holyrosary: {
     joyful: {
       title: "JOYFUL MYSTERIES",
       days: "Monday and Saturday",
@@ -27,13 +28,14 @@ export default {
       fourth: "The Assumption",
       fifth: "The Coronation of Mary",
     },
-    luminous: {
+    light: {
       title: "LUMINOUS MYSTERIES",
       days: "Thursday",
       first: "The Baptism in the Jordan",
       second: "The Proclamation of the Kingdom",
       third: "The Transfiguration",
       fourth: "The Institution of the Eucharist",
+      fifth: "The Wedding at Cana"
     },
   },
 };

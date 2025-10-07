@@ -34,6 +34,16 @@ const styles = StyleSheet.create({
     textDecorationLine: "underline",
     paddingBottom: 10,
   },
+  fontComment:{
+    fontFamily: "monospace",
+  },
+   header2: {
+    fontSize: 18,
+    fontWeight: "bold",
+    textAlign: "center",
+    textDecorationLine: "underline",
+    paddingBottom: 10,
+  },
   padding: {
     padding: 10,
   },
@@ -50,5 +60,28 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
     marginTop: 50,
   },
+  card: {
+    backgroundColor: '#f9f9f9',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+    elevation: 3,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+  },
+  flatListContainer: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 16,
+    paddingTop: 20,
+    minHeight: '100%',
+  },
+  list: {
+    justifyContent: 'center',
+  },
+  row: {
+    justifyContent: 'space-between',},
 });
 export default styles;

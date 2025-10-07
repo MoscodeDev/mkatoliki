@@ -1,18 +1,26 @@
+import RosaryMystery from '@/src/components/RosaryMystery'
 import React from 'react'
-import { ImageBackground, Text, View } from 'react-native'
-import holyRosaryImg from '../../images/holyRosary.png'
+import { useTranslation } from 'react-i18next'
+import { Image, ScrollView, Text, View } from 'react-native'
+import holyRosar from '../../images/holyRosary.webp'
 import styles from '../../styles/styles'
 
 
 const holyRosary = () => {
+  const {t} = useTranslation()
   return (
-    <ImageBackground source={holyRosaryImg} resizeMode='contain' style={{flex: 1,
-    width: "100%",
-    height: "100%"}}>      
-    <View style={styles.containerFlex}>
+    <ScrollView style={styles.padding}>
       <Text style={styles.header}>Holy Rosary</Text>
-    </View>
-    </ImageBackground>
+    <Image source={holyRosar} resizeMode='contain' style={{flex: 1,
+    width: "100%",
+    height: 250}} />      
+    <RosaryMystery type='joyful' />
+    <RosaryMystery type='light' />
+    <RosaryMystery type='sorrowful' />
+    <RosaryMystery type='glorious' />
+    <View style={{marginTop: 30}}></View>
+    
+    </ScrollView>
   )
 }
 

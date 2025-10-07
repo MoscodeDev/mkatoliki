@@ -4,8 +4,10 @@ import { initReactI18next } from "react-i18next";
 import orderOfMass from './en/orderOfMass.js';
 import prayers from './en/prayers.js';
 import pressables from './en/pressables.js';
+import rosary from './en/rosary.js';
 import bonyezi from './sw/bonyezi.js';
 import kanuniYaMisa from './sw/kanuniYaMisa.js';
+import rozari from './sw/rozari.js';
 import sala from './sw/sala.js';
 
 const resources = {
@@ -16,7 +18,8 @@ const resources = {
       switch:"SWA",
       ...prayers,
       ...pressables,
-      ...orderOfMass
+      ...orderOfMass,
+      ...rosary
 
     },
   },
@@ -27,7 +30,8 @@ const resources = {
       switch:"ENG",
       ...sala,
       ...bonyezi,
-      ...kanuniYaMisa
+      ...kanuniYaMisa,
+      ...rozari
     },
   },
 };

@@ -11,7 +11,7 @@ const Foot = () => {
       <TouchableOpacity onPress={()=> router.replace('/')}>
         <Text>{t('home')}</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={()=> router.replace('/productScreen')}>
+      <TouchableOpacity onPress={()=> router.replace('/products')}>
         <Text>{t('sacramentals')}</Text>
       </TouchableOpacity>
     </View>

@@ -24,7 +24,8 @@ export default Head;
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20,
+    paddingInline: 30,
+    paddingVertical: 8,
     backgroundColor: "lightgrey",
     flexDirection: "row",
     justifyContent: "space-between",
